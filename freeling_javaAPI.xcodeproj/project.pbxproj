@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B8BD151C4942680084CEAF /* freeling_javaAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B8BD141C4942680084CEAF /* freeling_javaAPI.h */; };
+		55B8BD171C4942680084CEAF /* freeling_javaAPIPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B8BD161C4942680084CEAF /* freeling_javaAPIPriv.h */; };
+		55B8BD191C4942680084CEAF /* freeling_javaAPI.cp in Sources */ = {isa = PBXBuildFile; fileRef = 55B8BD181C4942680084CEAF /* freeling_javaAPI.cp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55B8BD111C4942680084CEAF /* libfreeling_javaAPI.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libfreeling_javaAPI.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B8BD141C4942680084CEAF /* freeling_javaAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeling_javaAPI.h; sourceTree = "<group>"; };
+		55B8BD161C4942680084CEAF /* freeling_javaAPIPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeling_javaAPIPriv.h; sourceTree = "<group>"; };
+		55B8BD181C4942680084CEAF /* freeling_javaAPI.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = freeling_javaAPI.cp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B8BD0E1C4942680084CEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B8BD081C4942680084CEAF = {
+			isa = PBXGroup;
+			children = (
+				55B8BD131C4942680084CEAF /* freeling_javaAPI */,
+				55B8BD121C4942680084CEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B8BD121C4942680084CEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B8BD111C4942680084CEAF /* libfreeling_javaAPI.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B8BD131C4942680084CEAF /* freeling_javaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				55B8BD141C4942680084CEAF /* freeling_javaAPI.h */,
+				55B8BD161C4942680084CEAF /* freeling_javaAPIPriv.h */,
+				55B8BD181C4942680084CEAF /* freeling_javaAPI.cp */,
+			);
+			path = freeling_javaAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55B8BD0F1C4942680084CEAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B8BD171C4942680084CEAF /* freeling_javaAPIPriv.h in Headers */,
+				55B8BD151C4942680084CEAF /* freeling_javaAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55B8BD101C4942680084CEAF /* freeling_javaAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B8BD1C1C4942680084CEAF /* Build configuration list for PBXNativeTarget "freeling_javaAPI" */;
+			buildPhases = (
+				55B8BD0D1C4942680084CEAF /* Sources */,
+				55B8BD0E1C4942680084CEAF /* Frameworks */,
+				55B8BD0F1C4942680084CEAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freeling_javaAPI;
+			productName = freeling_javaAPI;
+			productReference = 55B8BD111C4942680084CEAF /* libfreeling_javaAPI.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B8BD091C4942680084CEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = BrightSoft;
+				TargetAttributes = {
+					55B8BD101C4942680084CEAF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 55B8BD0C1C4942680084CEAF /* Build configuration list for PBXProject "freeling_javaAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55B8BD081C4942680084CEAF;
+			productRefGroup = 55B8BD121C4942680084CEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B8BD101C4942680084CEAF /* freeling_javaAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B8BD0D1C4942680084CEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B8BD191C4942680084CEAF /* freeling_javaAPI.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55B8BD1A1C4942680084CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55B8BD1B1C4942680084CEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55B8BD1D1C4942680084CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55B8BD1E1C4942680084CEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B8BD0C1C4942680084CEAF /* Build configuration list for PBXProject "freeling_javaAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B8BD1A1C4942680084CEAF /* Debug */,
+				55B8BD1B1C4942680084CEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B8BD1C1C4942680084CEAF /* Build configuration list for PBXNativeTarget "freeling_javaAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B8BD1D1C4942680084CEAF /* Debug */,
+				55B8BD1E1C4942680084CEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B8BD091C4942680084CEAF /* Project object */;
+}
