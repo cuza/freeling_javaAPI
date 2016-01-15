@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55B8BD151C4942680084CEAF /* freeling_javaAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B8BD141C4942680084CEAF /* freeling_javaAPI.h */; };
-		55B8BD171C4942680084CEAF /* freeling_javaAPIPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B8BD161C4942680084CEAF /* freeling_javaAPIPriv.h */; };
-		55B8BD191C4942680084CEAF /* freeling_javaAPI.cp in Sources */ = {isa = PBXBuildFile; fileRef = 55B8BD181C4942680084CEAF /* freeling_javaAPI.cp */; };
+		55B8BD201C49431B0084CEAF /* freeling_javaAPI.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 55B8BD1F1C49431B0084CEAF /* freeling_javaAPI.cxx */; };
+		55B8BD221C4946A90084CEAF /* libfreeling-3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B8BD211C4946A90084CEAF /* libfreeling-3.1.dylib */; };
+		55B8EB5A1C4948BE0084CEAF /* libboost_system-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B8EB591C4948BD0084CEAF /* libboost_system-mt.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55B8BD111C4942680084CEAF /* libfreeling_javaAPI.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libfreeling_javaAPI.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		55B8BD141C4942680084CEAF /* freeling_javaAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeling_javaAPI.h; sourceTree = "<group>"; };
-		55B8BD161C4942680084CEAF /* freeling_javaAPIPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeling_javaAPIPriv.h; sourceTree = "<group>"; };
-		55B8BD181C4942680084CEAF /* freeling_javaAPI.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = freeling_javaAPI.cp; sourceTree = "<group>"; };
+		55B8BD1F1C49431B0084CEAF /* freeling_javaAPI.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = freeling_javaAPI.cxx; sourceTree = "<group>"; };
+		55B8BD211C4946A90084CEAF /* libfreeling-3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libfreeling-3.1.dylib"; path = "../../../../opt/local/lib/libfreeling-3.1.dylib"; sourceTree = "<group>"; };
+		55B8EB591C4948BD0084CEAF /* libboost_system-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_system-mt.dylib"; path = "../../../../opt/local/lib/libboost_system-mt.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +24,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B8BD221C4946A90084CEAF /* libfreeling-3.1.dylib in Frameworks */,
+				55B8EB5A1C4948BE0084CEAF /* libboost_system-mt.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +35,8 @@
 		55B8BD081C4942680084CEAF = {
 			isa = PBXGroup;
 			children = (
+				55B8EB591C4948BD0084CEAF /* libboost_system-mt.dylib */,
+				55B8BD211C4946A90084CEAF /* libfreeling-3.1.dylib */,
 				55B8BD131C4942680084CEAF /* freeling_javaAPI */,
 				55B8BD121C4942680084CEAF /* Products */,
 			);
@@ -49,9 +53,7 @@
 		55B8BD131C4942680084CEAF /* freeling_javaAPI */ = {
 			isa = PBXGroup;
 			children = (
-				55B8BD141C4942680084CEAF /* freeling_javaAPI.h */,
-				55B8BD161C4942680084CEAF /* freeling_javaAPIPriv.h */,
-				55B8BD181C4942680084CEAF /* freeling_javaAPI.cp */,
+				55B8BD1F1C49431B0084CEAF /* freeling_javaAPI.cxx */,
 			);
 			path = freeling_javaAPI;
 			sourceTree = "<group>";
@@ -63,8 +65,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B8BD171C4942680084CEAF /* freeling_javaAPIPriv.h in Headers */,
-				55B8BD151C4942680084CEAF /* freeling_javaAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B8BD191C4942680084CEAF /* freeling_javaAPI.cp in Sources */,
+				55B8BD201C49431B0084CEAF /* freeling_javaAPI.cxx in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +211,22 @@
 		55B8BD1D1C4942680084CEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home/include/darwin,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -224,12 +234,22 @@
 		55B8BD1E1C4942680084CEAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home/include/darwin,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
